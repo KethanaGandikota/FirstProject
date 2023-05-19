@@ -1,4 +1,4 @@
-1.To write the calculator program using match function.
+1.To write the calculator program using match().
 CODE:
 print("Enter a,b values\n")
 a=int(input())
@@ -32,7 +32,7 @@ match c:
     case other:
         print("Invalid Input")
 
-2.To write the calculator program using functions.
+2.To write the calculator program using match and functions.
 CODE:
 n1=int(input())
 n2=int(input())
