@@ -1,0 +1,83 @@
+1.To write the calculator program using match function.
+CODE:
+print("Enter a,b values\n")
+a=int(input())
+b=int(input())
+print("1.Addition\n")
+print("2.Subtraction\n")
+print("3.Multiplication\n")
+print("4.Division\n")
+print("5.Modular Division\n")
+print("6.Floor Division\n")
+print("7.Exponent\n")
+print("8.Exit")
+c=int(input())
+match c:
+    case 1:
+        print(a+b)
+    case 2:
+        print(a-b)
+    case 3:
+        print(a*b)
+    case 4:
+        print(a/b)
+    case 5:
+        print(a%b)
+    case 6:
+        print(a//b)
+    case 7:
+        print(a**b)
+    case 8:
+        print("Exit")
+    case other:
+        print("Invalid Input")
+
+2.To write the calculator program using functions.
+CODE:
+n1=int(input())
+n2=int(input())
+print("1.Addition\n")
+print("2.Subtraction\n")
+print("3.Multiplication\n")
+print("4.Division\n")
+print("5.Modular Division\n")
+print("6.Floor Division\n")
+print("7.Exponent\n")
+a=int(input())
+match a:
+    case 1:
+        def add():
+            sum=n1+n2
+            print(sum)
+        add()
+    case 2:
+        def sub():
+            sum=n1-n2
+            print(sum)
+        sub()
+    case 3:
+        def mul():
+            sum=n1*n2
+            print(sum)
+        mul()
+    case 4:
+        def div():
+            sum=n1/n2
+            print(sum)
+        div()
+    case 5:
+        def moddiv():
+            sum=n1%n2
+            print(sum)
+        moddiv()
+    case 6:
+        def flodiv():
+            sum=n1//n2
+            print(sum)
+        flodiv()
+    case 7:
+        def expo():
+            sum=n1**n2
+            print(sum)
+        expo()
+    case 8:exit(0)
